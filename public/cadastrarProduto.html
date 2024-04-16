@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>CYG-TechStore</title>
+    <link rel="stylesheet" href="../styles/style.css"> 
+</head>
+<body>
+    <header>
+        <div class="Topo">
+            <h1>CYG-TechStore</h1>
+            <nav>
+                <a href="">Home</a>
+                <a href="">Login</a>
+                <a href="">Meus Pedidos</a>
+                <a href="">Carrinho</a>
+            </nav>
+        </div>
+        <div class="Busca">
+            <form action="#">
+                <input type="text" placeholder="Buscar um produto...">
+                <button>Teste</button>
+            </form>
+        </div>
+    </header>
+    <nav class="Filtros">
+        <p>Condição</p>
+        <p>Categoria</p>
+        <p>Valor</p>
+        <p>Marca</p>
+        <p>Ordenar por:</p>
+    </nav>
+    
+    <div class="formulario">
+        <form id="formProduto">
+            <label for="nomeProduto">Nome: </label>
+            <input class="tag-form" type="text" name="nomeProduto" id="nomeProduto">
+            <br>
+            <br>
+            <label for="valor">Valor: </label>
+            <input class="tag-form" type="text" name="valor" id="valor">
+            <br>
+            <br>
+            <label for="marca">Marca: </label>
+            <input class="tag-form" type="text" name="marca" id="marca">
+            <br>
+            <br>
+            <label for="descricao">Descrição: </label>
+            <input class="tag-form" type="text" name="descricao" id="descricao">
+            <br>
+            <br>
+            <label for="observacao">Observação: </label>
+            <input class="tag-form" type="text" name="observacao" id="observacao">
+            <br>
+            <br>
+            <button type="button" class="button-submit"  onclick="createProduto()">Cadastrar</button>
+        </form>
+    </div>
+
+    <footer>
+        <nav>
+            <a href="">Sobre nós</a>
+            <a href="">Fale Conosco</a>
+            <a href="">Termos e Condições</a>
+        </nav>
+        <p>@Projeto feito por Carlos Eduardo, Gabriel Alves e Yago Gomes. Todos os direitos reservados.</p>
+    </footer>
+    <script src="../scripts/cadastro.js"></script>
+</body>
+</html>
