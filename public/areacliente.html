@@ -1,9 +1,10 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>CYG-TechStore</title>
-    <link rel="stylesheet" href="../styles/style.css"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Área do cliente</title>
+    <link rel="stylesheet" href="../styles/style.css">
 </head>
 <body>
     <header>
@@ -28,32 +29,19 @@
             </nav>
         </div>
     </header>
-    
-    <div class="formulario">
-        <form id="formProduto">
-            <label for="nomeProduto">Nome: </label>
-            <input class="tag-form" type="text" name="nomeProduto" id="nomeProduto">
-            <br>
-            <br>
-            <label for="valor">Valor: </label>
-            <input class="tag-form" type="text" name="valor" id="valor">
-            <br>
-            <br>
-            <label for="marca">Marca: </label>
-            <input class="tag-form" type="text" name="marca" id="marca">
-            <br>
-            <br>
-            <label for="descricao">Descrição: </label>
-            <input class="tag-form" type="text" name="descricao" id="descricao">
-            <br>
-            <br>
-            <label for="observacao">Observação: </label>
-            <input class="tag-form" type="text" name="observacao" id="observacao">
-            <br>
-            <br>
-            <button type="button" class="button-submit"  onclick="createProduto()">Cadastrar</button>
-        </form>
+    <div class="">
+
     </div>
+
+    <main class="client-area">
+        <h1>Bem vindo, Cliente!</h1>
+        <nav>
+            <button>Favoritos</button>
+            <button>Histórico de compras</button>
+            <button>Sua Carteira</button>
+            <button>Cadastrar Produto</button>
+        </nav>
+    </main>
 
     <footer>
         <p>&copy; Projeto feito por Carlos Eduardo, Gabriel Alves, Luiz Augusto e Yago Gomes. Todos os direitos reservados.</p>
@@ -63,6 +51,5 @@
             <a href="">Termos e Condições</a>
         </nav>
     </footer>
-    <script src="../scripts/cadastro.js"></script>
 </body>
 </html>

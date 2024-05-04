@@ -1,9 +1,10 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>CYG-TechStore</title>
-    <link rel="stylesheet" href="../styles/style.css"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu carrinho</title>
+    <link rel="stylesheet" href="../styles/style.css">
 </head>
 <body>
     <header>
@@ -28,32 +29,26 @@
             </nav>
         </div>
     </header>
-    
-    <div class="formulario">
-        <form id="formProduto">
-            <label for="nomeProduto">Nome: </label>
-            <input class="tag-form" type="text" name="nomeProduto" id="nomeProduto">
-            <br>
-            <br>
-            <label for="valor">Valor: </label>
-            <input class="tag-form" type="text" name="valor" id="valor">
-            <br>
-            <br>
-            <label for="marca">Marca: </label>
-            <input class="tag-form" type="text" name="marca" id="marca">
-            <br>
-            <br>
-            <label for="descricao">Descrição: </label>
-            <input class="tag-form" type="text" name="descricao" id="descricao">
-            <br>
-            <br>
-            <label for="observacao">Observação: </label>
-            <input class="tag-form" type="text" name="observacao" id="observacao">
-            <br>
-            <br>
-            <button type="button" class="button-submit"  onclick="createProduto()">Cadastrar</button>
-        </form>
-    </div>
+
+    <main class="carrinho">
+        <h1>Carrinho de compras</h1>
+        <div class="itens-carrinho">
+            <h3>Mouse Gamer</h3>
+        </div>
+        <div class="acoes">
+            <p>
+                <strong>Total: </strong>
+                <span>R$100,00</span>
+            </p>
+            <p>
+                <strong>Sua carteira: </strong>
+                <span>R$0,00</span>
+            </p>
+            <button>Finalizar compra</button>
+            <button>Limpar carrinho</button>
+        </div>
+        
+    </main>
 
     <footer>
         <p>&copy; Projeto feito por Carlos Eduardo, Gabriel Alves, Luiz Augusto e Yago Gomes. Todos os direitos reservados.</p>
@@ -63,6 +58,5 @@
             <a href="">Termos e Condições</a>
         </nav>
     </footer>
-    <script src="../scripts/cadastro.js"></script>
 </body>
 </html>
