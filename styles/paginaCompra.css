@@ -1,0 +1,79 @@
+.mainContent{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
+.cardResumo{
+    background-color: white;
+    height: 25vh;
+    width: 25vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 25px;
+    border-style: solid;
+    border-radius: 8px;
+    border-width: 1px;
+    justify-content: flex-end;
+
+    margin-top: 50px;
+
+}
+
+.buttonComprar{
+    width: 15vw;
+    height: 50px;
+
+    color: white;
+    background-color: #F7CA00;
+
+    font-size: 35px;
+    border-radius: 10px;
+    
+}
+
+
+.buttonComprar:hover{
+    cursor: pointer;
+}
+
+.forms{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+
+    margin-top: 50px;
+}
+
+.forms input{
+    height: 50px;
+    width: 25vw;
+    border-radius: 8px;
+}
+
+.FormEndereco label, .FormEndereco input, .FormCartao label, .FormCartao input, .FormEndereco button, .FormCartao button {
+    display: none;
+}
+
+.forms form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.forms .FormEndereco h2{
+    border-style: solid;
+    border-radius: 8px;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.forms .FormCartao h2{
+    border-style: solid;
+    border-radius: 8px;
+    padding: 10px;
+    cursor: pointer;
+}
